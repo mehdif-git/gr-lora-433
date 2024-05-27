@@ -21,7 +21,7 @@ run git clone https://github.com/jgaeddert/liquid-dsp.git . && \
 workdir /src
 
 arg CACHEBUST
-run git clone https://github.com/rpp0/gr-lora.git . && \
+run git clone git@github.com:mehdif-git/gr-lora-433.git . && \
     mkdir build && \
     cd build && \
     cmake ../ -DCMAKE_INSTALL_PREFIX=/usr && \
